@@ -35,4 +35,9 @@ public:
         cout << "push value: " << value << endl;
         return value;
     }
+    // is empty operation: check if the stack is empty
+    bool isEmpty()
+    {
+        return top == NULL; // mengembalikan nilai true jika top pointer NULL,
+    }
 };
