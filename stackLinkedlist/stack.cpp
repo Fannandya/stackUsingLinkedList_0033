@@ -97,6 +97,10 @@ int main()
             stack.push(value); // push value yang dimasukkan ke stack
             break;
 
+        case 2:
+            stack.pop(); // mengeluarkan topmost di elemen dari stack
+            break;
+
         default:
             break;
         }
