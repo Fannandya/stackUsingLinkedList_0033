@@ -32,5 +32,7 @@ public:
         newNode->data = value;      // memasukkan value
         newNode->next = top;        // membuat next pointer node baru ke current top node
         top = newNode;              // memindahkan pointer top ke node baru
+        cout << "push value: " << value << endl;
+        return value;
     }
 };
