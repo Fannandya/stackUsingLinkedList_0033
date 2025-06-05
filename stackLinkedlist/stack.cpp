@@ -100,6 +100,9 @@ int main()
         case 2:
             stack.pop(); // mengeluarkan topmost di elemen dari stack
             break;
+        case 3:
+            stack.peek(); // untuk melihat isi data di list
+            break;
 
         default:
             break;
