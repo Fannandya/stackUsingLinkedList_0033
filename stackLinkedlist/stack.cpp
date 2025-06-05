@@ -30,5 +30,6 @@ public:
     {
         node *newNode = new node(); // memgalokasikan memory untuk node baru
         newNode->data = value;      // memasukkan value
+        newNode->next = top;        // membuat next pointer node baru ke current top node
     }
 };
