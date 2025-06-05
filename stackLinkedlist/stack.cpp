@@ -29,5 +29,6 @@ public:
     int push(int value)
     {
         node *newNode = new node(); // memgalokasikan memory untuk node baru
+        newNode->data = value;      // memasukkan value
     }
 };
