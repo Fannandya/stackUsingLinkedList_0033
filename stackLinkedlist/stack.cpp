@@ -18,4 +18,16 @@ class stack
 {
 private:
     node *top; // pointer untuk top node di stack
-}
+
+public:
+    stack()
+    {
+        top = NULL; // initialize the stack with a null top pointer
+    }
+
+    // push operation: insert an element onto the top of the stack
+    int push(int value)
+    {
+        node *newNode = new node(); // memgalokasikan memory untuk node baru
+    }
+};
