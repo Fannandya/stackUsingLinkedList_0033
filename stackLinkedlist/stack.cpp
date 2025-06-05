@@ -52,4 +52,23 @@ public:
         cout << "popped value: " << top->data << endl;
         top = top->next; // mengubah top pointer ke next node
     }
+
+    // peek/top operation: retrive the value of the topmost element without removing it
+    void peek()
+    {
+        if (isEmpty())
+        {
+            cout << "list is empty." << endl;
+        }
+        else
+        {
+            node *current = top;
+            while (current != NULL)
+            {
+                cout << current->data << " " << endl;
+                current = current->next;
+            }
+            cout << endl;
+        }
+    }
 };
