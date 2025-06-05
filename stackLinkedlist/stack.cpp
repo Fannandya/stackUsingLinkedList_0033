@@ -96,15 +96,17 @@ int main()
             cin >> value;
             stack.push(value); // push value yang dimasukkan ke stack
             break;
-
         case 2:
             stack.pop(); // mengeluarkan topmost di elemen dari stack
             break;
         case 3:
             stack.peek(); // untuk melihat isi data di list
             break;
-
+        case 4:
+            cout << "exiting program." << endl;
+            break;
         default:
+            cout << "invallid choice. try again." << endl;
             break;
         }
     }
